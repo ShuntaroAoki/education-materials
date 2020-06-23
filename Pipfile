@@ -6,16 +6,23 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+numpy = "==1.17"
+scipy = "==1.1"
+scikit-learn = "*"
+pandas = "*"
+matplotlib = "*"
 ipython = "*"
 jupyterlab = "*"
-numpy = "*"
-scipy = "*"
-scikit-learn = "*"
-matplotlib = "*"
-h5py = "*"
 nipy = "*"
 nibabel = "*"
 nilearn = "*"
+h5py = "*"
+hdf5storage = "*"
+pyyaml = "*"
+bdpy = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
