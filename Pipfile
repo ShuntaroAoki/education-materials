@@ -20,6 +20,8 @@ h5py = "*"
 hdf5storage = "*"
 pyyaml = "*"
 bdpy = "*"
+appnope = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.7"
